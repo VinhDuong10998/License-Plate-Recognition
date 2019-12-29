@@ -27,4 +27,4 @@ python3 detect.py --source ...
 - HTTP stream:  `--source http://wmccpinetop.axiscam.net/mjpg/video.mjpg`
 
 ## Demo
-`python detect.py --weights weights/best.pt --cfg cfg/yolov3-tiny-1.cfg --names data/plates.names --source [] --view-img`
+`python detect.py --weights weights/best.pt --cfg cfg/yolov3-tiny-1.cfg --names data/plates.names --source video.mp4 --view-img`
