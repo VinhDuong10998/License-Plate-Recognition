@@ -28,3 +28,14 @@ python3 detect.py --source ...
 
 ## Demo
 `python detect.py --weights weights/best.pt --cfg cfg/yolov3-tiny-1.cfg --names data/plates.names --source video.mp4 --view-img`
+
+## References
+I strongly refer: 
+
+- L.P Detection: https://github.com/ultralytics/yolov3
+
+- Text Detection: https://github.com/clovaai/CRAFT-pytorch
+
+- Text Recognition: https://github.com/githubharald/SimpleHTR
+
+
